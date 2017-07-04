@@ -11,7 +11,12 @@ public class Robot04{
     // they fail to place the mouse pointer on
     // the Close button of the non-Java program
     // that you are trying to terminate.
-    robot.mouseMove(1005,10);
+    robot.mouseMove(1900,20);
+    robot.mousePress(InputEvent.BUTTON1_MASK);
+    robot.delay(3000);
+    robot.mouseMove(720,720);
+    robot.delay(3000);
+    robot.mouseMove(600,600);
 
     //Press and then release the left mouse
     // button.  The delays are provided so that
